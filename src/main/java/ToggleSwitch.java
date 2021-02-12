@@ -1,5 +1,5 @@
 public class ToggleSwitch {
-    private boolean onOff;
+    volatile private boolean onOff;
 
     public boolean getSwitch() {
         return onOff;
